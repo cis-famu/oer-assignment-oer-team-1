@@ -8,7 +8,57 @@ Upon finishing this chapter, students will have the capability to:
 4. Create assignment and input statements and the use of variables within statements.
 5. Differentiate between type conversion and type casting
 6. Develop output results using output statements
-7. Identify syntax errors and debugging techniques
+  7. Identify syntax errors and debugging techniques
 8. Write a basic C++ program
 
 ## Introduction
+
+Output results using output statements
+Output results are the result of running your code and asking for a result. You can tell your code to add 2 + 2 = y, without an output statment the result 4 would not be sent.
+
+Consider the following
+
+#include <isostream>
+using namespace std;
+float y;
+
+
+Syntax Errors and Debugging Techneqiues 
+Syntax errors occur because you violate the conventions of c++. Think of it like the grammar and punctuation, a sentence may make sense to you as a human but without the correct grammatical conventions it means nothing. Syntax errors can be caused by improper use of semicolons and brackets, not declaring variables correctly, forgetting quotes for strings, and many other things. 
+
+Condsider the following code:
+
+#include <isostream>
+using namespace std;
+#define repeat (n) for (int i=n, i--);
+int main
+{
+double x
+double n
+x = 2; 
+n = 3;
+if  n > 1 
+  x * x
+  repeat
+}
+cout << y << endl
+
+This code contains several syntax errors, it is intended to -----
+
+The following must be corrected in order to run this code:
+
+#include <isostream>
+using namespace std;
+#define repeat (n) for (int i=n, i--);   // the "(n)" brackets require a second argument for "i"
+int main
+{
+double x   // an initializer is expected for this line and the line following, they must end with a semicolon
+double n
+x = 2; 
+n = 3;
+if  n > 1  // add a bracets "()" around the agument -> "(n > 1)
+  x * x
+  repeat
+}
+cout << y << endl
+
