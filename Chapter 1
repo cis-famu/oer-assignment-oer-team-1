@@ -8,10 +8,27 @@ Upon finishing this chapter, students will have the capability to:
 4. Create assignment and input statements and the use of variables within statements.
 5. Differentiate between type conversion and type casting
 6. Develop output results using output statements
-  7. Identify syntax errors and debugging techniques
+7. Identify syntax errors and debugging techniques
 8. Write a basic C++ program
 
 ## Introduction
+
+In this chapter, we'll learn the essential basics of C++ programming. It’s like building blocks for people 
+who want to become programmers. We’ll start by understanding the main parts of a C++ program, like functions,
+special symbols,and identifiers. Functions are like building blocks of code that help organize things better. Special symbols and 
+identifiers are like names for things in the program, making it easier to work with data.
+
+Next, we'll talk about data types and assignment statements in C++. This is important for keeping and changing different kinds of
+information. When programmers learn how to use simple data types in assignment statements, it helps them start and change variables 
+easily. We’ll also look at math symbols, their importance, and how to create complicated math calculations in C++ programs.
+
+Now, we'll look at how to produce input and output to users. Dealing with what users type and arranging how information is displayed 
+are essential skills for making programs that are easy for people to use. We also talk about changing the data type and casting it, 
+understanding when and why to do it to keep data accurate. Finally, we find and fix common mistakes in how the program is written 
+and explore ways to ensure the program runs smoothly.
+
+This chapter provides activities with hands-on problems that will allow readers to write their own basic C++ program to make sure 
+they understand these concepts.
 
 Output results using output statements
 Output results are the result of running your code and asking for a result. You can tell your code to add 2 + 2 = y, without an output statment the result 4 would not be sent.
