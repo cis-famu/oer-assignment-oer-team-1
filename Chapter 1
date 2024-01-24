@@ -29,6 +29,67 @@ and explore ways to ensure the program runs smoothly.
 
 This chapter provides activities with hands-on problems that will allow readers to write their own basic C++ program to make sure 
 they understand these concepts.
+____________________________________________________________________________________________________________________________________________
+Basic Elements
+
+This part discusses four main things in C++: comments, reserved words, identifiers, and functions. Functions are essential in C++; 
+They let programmers combine pieces of code and use them when they want. It’s like organizing code into smaller parts that can be used 
+again, making it easier to understand and work with. Functions can accept arguments, do specific tasks, and give back results to the 
+caller. Knowing about comments, reserved words, identifiers, and functions helps developers write good, efficient, and well-organized 
+C++ code. This sets a strong base for creating advanced programs and solving complex problems as they get more experience in C++. 
+We'll learn more about this in the next chapter.
+
+Reserved Words (Keywords)
+
+Reserved words, also called keywords, are certain words with set meanings in C++. They are the foundation for making instructions,
+expressions, and structures in a program. Because they’re reserved for specific jobs, programmers can’t use them as names for things 
+like variables or functions in their code. Knowing these reserved words is vital because they shape the basic structure of C++ and 
+set the rules for how the language works.
+For Example :     int, float, double, bool, if, else, do, while, return, const
+
+Comments 
+
+Comments are critical in programming because they let programmers add notes to their code. These notes are like messages for humans, 
+not for the computer. When the code is being turned into a program, the computer ignores these notes. Comments are like documentation 
+or reminders for programmers to understand, keep up, and work together on projects more efficiently.
+
+C++ has two styles of comments. The first if called an in-line comment which is done be using two foward slashes (//). Everything typed
+after that is considered a comment and will be ignored by the compiler.
+
+For Example: int age // STUDENT AGE 
+
+From this example, "STUDENT AGE" would be considered a comment.The second type of comment is called multiple-line comment which allow 
+programmers to write longer comments that can reach multiple lines. You proform this by enclosing the comment in /* and */.
+
+For Example: 
+*/
+  ANY TEXT WRITTEN HERE IS A COMMENT
+*/
+
+Identifiers
+
+In programming, identifiers are essential for defining and reaching different things in a code. In C++, an identifier is like a name 
+given to parts of a program, such as variables, functions, classes, objects, labels, and custom types created by users. These names 
+work as labels, letting programmers talk about and work with these parts in their code.
+
+This part is here to help you fully grasp identifiers in C++. It covers the rules, good ways to use them, and how they make a C++ 
+program organized and easy to understand.
+
+Rules For Naming Identifiers:
+-----------------------------
+1) Valid Characters: Identifiers can have letters (uppercase and lowercase), numbers, and underscores (_). The first character must 
+   be a letter or an underscore. C++ is case-sensitive, so "num123" and "Num123" are different.
+2) Reserved Keywords: As discussed previously, certain words in C++ have predefined meanings and can't be used as identifiers.  
+   Examples include "if," "else," "while," "class," "int," and "return.
+3) Length Limitation: Identifiers can be any length, but only the first few characters matter. Many compilers limit the length, 
+   often to 255 characters.
+4) Unicode Support: C++ allows the use of Unicode characters in identifiers, expanding the range of possible names.
+5) Namespace Scope: Identifiers within a namespace should have unique names to avoid conflicts. Use descriptive names that 
+   reflect the content or purpose.
+6) Global Scope: Be careful with identifiers in the global scope to prevent clashes in large projects. It's a good idea to use unique 
+   prefixes or namespaces for global identifiers.
+7) Underscore Convention: Identifiers starting with an underscore followed by a capital letter (e.g., "_MyIdentifier") and those with 
+   two consecutive underscores are reserved for the compiler and standard library. Avoid using such names to prevent unintended issues.
 
 ____________________________________________________________________________________________________________________________________________
 Output results using output statements
