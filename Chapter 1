@@ -112,6 +112,103 @@ modular units. They can accept arguments, perform specific tasks, and return res
 documentation and reminders. They are ignored by the computer during program execution
 3. d
 ____________________________________________________________________________________________________________________________________________
+
+
+Arithmetic operators, precedence, and expressions 
+
+Computers have the ability to calculate and with that you can use many different arithmetic operators to specify between integers and 
+floating- point data types.  
+
+There are five different types of arithmetic operators 
+
++ (addition) 
+
+- (subtraction or negation) 
+
+ * (multiplication) 
+
+/ (division) 
+
+ % (mod, (modulus or remainder))  
+
+For Example:  
+
+int    x=10  y=2  
+
+int sum= x+y ;// sum will be 12 
+
+int difference= x-y;// difference will be 8  
+
+int product =x*y;// product will be 20  
+
+int quotient =x/y;// quotient will be 5 
+
+int remainder = x%y;// remainder will be 0  
+
+Order of Precedence 
+
+When more than one arithmetic operator is used in an expression, C++ uses the operator precedence rules to evaluate the expression, 
+stating which step would be solved first and so forth relating to PEMDAS but in a coding way. Stated below are the order of precedence.  
+
+ 
+
+Parenthesis  
+
+() 
+
+Unary (used as positive or negative signs)  
+
++ - 
+
+Multiplicative  
+
+* / % 
+
+Additive  
+
++ - 
+
+Assignment  
+
+= 
+
+ 
+
+When operators have the same level of precedence, the operations are performed from left to right, the use of parentheses is to group arithmetic expressions.  
+
+Expressions  
+
+1. Integral expressions-all operands in the expression are integers. Meaning a number that is a whole number and not a fraction. The solution will be an integer. 
+
+2. Floating-point (decimal) expressions- all operands in the expression are floating points ( decimals numbers/ double etc..) The solution will be a floating-point. 
+
+3. Mixed expressions-the expression contains both integers and decimal numbers.   
+
+a. If the operator has the same type of integers or same floating-point numbers, the operator is evaluated according to the type of operands.  
+
+b. If the operator has both types of operands meaning one integer and the other is a floating-point number then the result will be that the integer will change to a floating-point number.  
+
+For Example: 
+Integral expression: 2+ 4 * 6 
+
+Floating-point: 2.4 * 3.4 - 10.5 
+
+Mixed Expression: 10 + 4.7 
+
+Review Questions: 
+
+1. What is the operand in the following expression? 3+4
+
+2. In C++, what arithemtic operator is used for division?
+a) +
+b) -
+c) /
+d) %
+
+3. True/False: Arithmetic operators are evaluted from left to right?
+
+Answers: 1. +    2.   /    3.    True
+____________________________________________________________________________________________________________________________________________
 Data types
 
 In C++, data types are like basic building blocks that define what kind of information a variable can hold. They are important because they
