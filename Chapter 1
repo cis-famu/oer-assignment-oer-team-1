@@ -112,6 +112,8 @@ modular units. They can accept arguments, perform specific tasks, and return res
 documentation and reminders. They are ignored by the computer during program execution
 3. d
 ____________________________________________________________________________________________________________________________________________
+Data types
+
 In C++, data types are like basic building blocks that define what kind of information a variable can hold. They are important because they
 determine how much space a variable takes up and how it behaves when the program runs. Knowing about these basic data types is really 
 important for writing code that works well, can be used on different systems, and doesn't have mistakes.
