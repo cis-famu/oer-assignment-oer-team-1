@@ -597,8 +597,53 @@ Create algorithms and c++ language that would solve said problems and every sub 
 Structure design is in place to identify and solve any possible errors and also makes it clear for anyone to come back and tweak the software. 
 Object-Oriented Programming  is needed in a C++ program because it identifies each object and their interaction. 
 Programs must be brought to main memory in order to execute that program.
+______________________________________________________________________________________________________________________________________________________________________________
 
+Key Terms 
 
+Programming
+  is a process of planning and creating a program. 
+
+Programming language
+  a set of rules, symbols, and special words. 
+
+Token
+  the smallest individual unit of a programn written in any language 
+
+Data type
+  a set of values together with a set of allowed operations 
+
+Integral
+  a data type that deals with integers
+
+Floating point
+  a data type that deals with decimal numbers
+
+Unary operator
+  has only one operand
+
+Binary operator
+  has two operands
+
+String
+  a sequence of zero or more characters 
+
+Increment operator
+  (two plus signs) that increases the value of a variable
+
+Decrement operator 
+  (two minus signs) that decreases the value of a variable
+
+Source code
+  the file containing the preprocesser directives and the program statemnts 
+
+_____________________________________________________________________________________________________________________________________________
+References 
+
+GeeksforGeeks. (2018, October 22). Type conversion in C. https://www.geeksforgeeks.org/type-conversion-in-c/
+
+Type Casting in C++ - javatpoint. (n.d.). www.javatpoint.com. https://www.javatpoint.com/type-casting-in-cpp
+________________________________________________________________________________________________________________________________________________
 
 Review Questions 
 1.What is the name of the beginning symbol statement?
