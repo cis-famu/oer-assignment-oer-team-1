@@ -280,6 +280,10 @@ Review Questions
 Answer Key:
 1.c 2.T 3. return statement/ return 0;
 ____________________________________________________________________________________________________________________________________________
+Type Conversation in simplest form is automatically done by the compilar, it allows the conversion of one data type to the other. On the other hand
+type casting is done manually by the programmer, they are essential allowing the conversion of one data type to the other. Both extremely important to data types in a program.
+
+___________________________________________________________________________________________________________________________________________
 Summary
 Input statements and output statements are vital to C++ programs simply because it allows the communication amongst the user and program itself to display a given result.
 Translating to computing language is necessary, without the source program your program will not understand your basic commands. 
