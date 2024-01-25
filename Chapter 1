@@ -209,6 +209,118 @@ d) %
 
 Answers: 1. +    2.   /    3.    True
 ____________________________________________________________________________________________________________________________________________
+Differentiate between type conversion and type casting  
+
+Type Conversion:
+
+There are two different types of type conversions 
+
+Implicit: known as automatic type conversion  
+Done by the complier on its own, without any external trigger from the user 
+Takes place when in an expression more than one data type is present. 
+All the data types are of the variables are upgraded to the data type of the variable with largest data type.  
+
+Explicit: This process is also called type casting and its user defined. Here the user can typecast the result to make it of a particular data type.  
+
+For Example:  
+Implicit:
+
+int main()  
+
+{  
+
+    int x = 10; // integer x  
+
+    char y = 'a'; // character c  
+
+   
+
+    // y implicitly converted to int. ASCII  
+
+    // value of 'a' is 97  
+
+    x = x + y;  
+
+   
+
+    // x is implicitly converted to float  
+
+    float z = x + 1.0;  
+
+   
+
+    cout << "x = " << x << endl  
+
+         << "y = " << y << endl  
+
+         << "z = " << z << endl;  
+
+   
+
+    return 0;  
+
+} 
+
+Explicit:
+
+// C++ program to demonstrate  
+
+// explicit type casting  
+
+   
+
+#include <iostream>  
+
+using namespace std;  
+
+   
+
+int main()  
+
+{  
+
+    double x = 1.2;  
+
+   
+
+    // Explicit conversion from double to int  
+
+    int sum = (int)x + 1;  
+
+   
+
+    cout << "Sum = " << sum;  
+
+   
+
+    return 0;  
+
+} 
+
+Type Cast 
+Converting an expression of a given type into another type.  
+
+For Example:  
+
+int num = 5;  
+float x;  
+x = float(num);  
+x = 5.0
+
+Review Questions: 
+
+1. The cast operator is also known as what?
+a) type conversion
+b) type casting
+c) operator 
+
+2. True/ False: When converting a floating-point number to an integer
+using the castoperator, you do not drop the decimal part of the floating-point number.
+
+3. Complete the following statement: static_cast<int>(7.9) = 
+
+Answers 1. a&b  2.  False   3. 7
+____________________________________________________________________________________________________________________________________________
 Data types
 
 In C++, data types are like basic building blocks that define what kind of information a variable can hold. They are important because they
