@@ -188,6 +188,33 @@ int main()
   return 0;
 }
 ____________________________________________________________________________________________________________________________________________
+#include <iostream>
+
+int main(){
+// Declare Variables
+int a= 5;
+int b= 2;
+int result;
+
+// Arithmetic Operators annd Precedence 
+result = a + b * 4;
+
+// Output result
+cout << " Result: " << result << endl;
+
+return 0;
+}
+
+In this example the Arthmetic operators is the "+" and "*" becuase they are performing operations of math. 
+The precedence used in this example is " a + b * 4 " due to the fact that it has levels of operation, so " b * 4 " would take place first becuase multipilcation has higher precedence than simple addition.
+In this example the expression is " 5 + 2 * 4 " because it is the blend of variables, operators, and value that then displays a result.
+
+Review Questions
+
+
+
+
+____________________________________________________________________________________________________________________________________________
 #include <iostream> 
 using namespace std;
 
@@ -246,11 +273,7 @@ Review Questions
 
 Answer Key:
 1.c 2.T 3. return statement/ return 0;
-
-
-
-
-
+____________________________________________________________________________________________________________________________________________
 Summary
 Input statements and output statements are vital to C++ programs simply because it allows the communication amongst the user and program itself to display a given result.
 Translating to computing language is necessary, without the source program your program will not understand your basic commands. 
