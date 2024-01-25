@@ -91,6 +91,98 @@ Rules For Naming Identifiers:
 7) Underscore Convention: Identifiers starting with an underscore followed by a capital letter (e.g., "_MyIdentifier") and those with 
    two consecutive underscores are reserved for the compiler and standard library. Avoid using such names to prevent unintended issues.
 
+
+Review questions
+
+1. What is the role of identifiers in programming?
+
+2. Why are comments critical in programming?
+
+3. How many styles of comments are there?
+  a) 7
+  b) 1
+  c) 2
+  d) 4
+
+key:
+
+1.Functions in C++ allow programmers to organize code into reusable, 
+modular units. They can accept arguments, perform specific tasks, and return results to the caller 
+2. Comments in programming serve as notes for humans, providing 
+documentation and reminders. They are ignored by the computer during program execution
+3. d
+____________________________________________________________________________________________________________________________________________
+In C++, data types are like basic building blocks that define what kind of information a variable can hold. They are important because they
+determine how much space a variable takes up and how it behaves when the program runs. Knowing about these basic data types is really 
+important for writing code that works well, can be used on different systems, and doesn't have mistakes.
+
+Now, let's look at the main types of data that C++ provides:
+
+1. Integer Types:
+   - `int`: This holds regular whole numbers and usually takes up 4 bytes. It ranges from as small as -2 billion to as big as +2 billion.
+   - `short`: Similar to `int` but smaller, using 2 bytes. It can go from about -32,768 to +32,767.
+   - `long`: Like `int` but can be larger, taking 4 or 8 bytes depending on the system.
+   - `long long`: Introduced later and can hold very large whole numbers, using 8 bytes.
+
+2. Floating-Point Types: 
+   - `float`: Holds numbers with decimals, using 4 bytes and having around 7 decimal digits of precision.
+   - `double`: Similar to `float` but more precise, using 8 spaces and having about 15 decimal digits of precision.
+   - `long double`: Even more precise than `double`.
+
+3. Character Type: 
+   - `char`: Holds a single character, like a letter or symbol, using 1 byte. It can also represent small numbers.
+
+4. Boolean Type:
+   - `bool`: Represents true or false, using 1 byte.
+
+Strings
+
+Now, let's talk about strings. In C++, strings are a way to store sequences of characters, like words or sentences. They are super useful
+for working with text in programs. To use strings, we include a special part called `<string>` in the header of our code. We can create and 
+work with string variables to handle human-readable information in our programs. string variables can be declared using various methods. 
+For example:
+
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+
+    // Method 1: Using string literals
+    string age = "twenty";
+
+    // Method 2: Using the constructor
+    string message("Hello, world");
+
+    // Method 3: Using assignment
+    string fruit;
+    class = "freshman";
+
+    return 0;
+}
+
+Review questions
+
+1. What does the long double data type offer in terms of precision?
+
+2. Which data type has a range of values of -2 billion to +2 billion
+  a) long long
+  b) int
+  c) double
+  d) short
+
+3. What must be included to work with strings in C++?
+
+
+key:
+
+1) long double data type represents extended-precision floating-point numbers
+2) b
+3) To work with strings in C++, the <string> header must be included in the code.
+
+
+
 ____________________________________________________________________________________________________________________________________________
 Output results using output statements
 Output results are the result of running your code and asking for a result. You can tell your code to add 2 + 2 = y, without an output statment the result 4 would not be sent.
