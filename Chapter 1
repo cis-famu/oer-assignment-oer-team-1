@@ -188,3 +188,92 @@ int main()
   return 0;
 }
 ____________________________________________________________________________________________________________________________________________
+#include <iostream> 
+using namespace std;
+
+// Declare the variables 
+int main () {
+
+int number1;
+int number2;
+int product;
+
+number1= 9;
+number2= 3;
+
+// Input statements 
+
+cout << “Enter the first number:” << endl;
+cin << number1;
+
+cout << “Enter the second number:” << endl;
+cin << number2;
+
+// Assignment Statement
+
+product = number1 * number2;
+
+// Output Statement
+
+cout << “The product of” << “number1” << and << “number2” << “is” << product << endl;
+
+return 0;
+}
+
+The variable declared in this example is number1, number 2, and product. This tells the program the values of the data types.
+
+The input statement cin was used to identify the first and second number of the program and it stores that information within the variable .
+
+The assignment statement is used to create the calculation of the product of the two numbers.
+
+The cout statement is used to display on screen the product result of the two numbers that were input. 
+
+
+
+Review Questions
+
+
+1. What is the significance of the assignment statement?
+    A. Manipulate data.
+    B. Sore variables within data.
+    C. Both A and B.
+    D. None of the above.
+
+2.Declaring variables is crucial to running a program without any errors? T/F 
+
+3. When ending a C++ program you must add the ____________ to ensure it will run properly.
+
+
+Answer Key:
+1.c 2.T 3. return statement/ return 0;
+
+
+
+
+
+Summary
+Input statements and output statements are vital to C++ programs simply because it allows the communication amongst the user and program itself to display a given result.
+Translating to computing language is necessary, without the source program your program will not understand your basic commands. 
+When using C++ programming, preprocessors are vital. An example is “#”. #include it is a statement that begins with a symbol.
+The compilar job is to make sure the program is ensured to run correctly with the programming language and no syntax error.
+Implying an efficient algorithm is important. Identify any problems that may occur along with the solution for each problem.
+Create algorithms and c++ language that would solve said problems and every sub problem. .
+Structure design is in place to identify and solve any possible errors and also makes it clear for anyone to come back and tweak the software. 
+Object-Oriented Programming  is needed in a C++ program because it identifies each object and their interaction. 
+Programs must be brought to main memory in order to execute that program.
+
+
+
+Review Questions 
+1.What is the name of the beginning symbol statement?
+   A.synax
+   B.preprocessors 
+   C.algorithms
+2. Recognizing every ______ implies that you have an efficient algorithm.
+3. It is the Object-Oriented programming’s job to ensure the program runs smoothly. T/F
+
+
+Answer Key
+1.B
+2. problem 
+3. F
