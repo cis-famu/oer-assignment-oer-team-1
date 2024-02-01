@@ -18,5 +18,9 @@ Summary
 
 Key terms
 
+Predefined functions: a wealth of functions that are already written. 
+Function call: causes the code attached to the predefined function pow to execute and, in this case, computes 2.0^3.0
+
+
 References 
 
