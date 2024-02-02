@@ -48,8 +48,29 @@ True  2. istreamVar.putback(ch)  3. (e) All of the above
 ________________________________________________________________________________________________________________________________
 Write data to the standard output device
 
-Use manipulators in a program to format output
+_____________________________________________________________________________________________________________________________________
+## Use manipulators in a program to format output
 
+Chapter 2 discusses how important it is for programmers to generate the output they desire in their programs. It explains using the << operator and endl to display results on the screen. However, output isn't just about showing results it's also about formatting them correctly. For instance, sometimes you need to show numbers with a specific number of decimal places, like in a paycheck. Other times, you might need to align numbers in columns or fill empty spaces with certain characters. This section teaches you about different functions and manipulators to format your output exactly how you want it.
+
+Setprecision Manipulator:
+
+The manipulator setprecision is employed to manage the output of floating-point numbers. Typically, floating-point numbers are displayed in scientific notation by default. Certain integrated development environments (IDEs) may default to showing floating-point numbers with a maximum of six decimal places. However, in scenarios like printing an employee's paycheck, the desired output typically requires only two decimal places. To achieve this, the setprecision manipulator is utilized to adjust the precision to 2 for printing floating-point output with two decimal places.
+
+To use this manipulator the header file iomanip will need to be included in your code for example:
+
+ #include <iomanip>
+				
+
+You will use the setprecision manipulator with cout and << for example:
+
+
+				             cout << setprecision(2)
+		 
+Where the number 2 would occupy the intend nuber of decimal places.
+
+
+_____________________________________________________________________________________________________________________________________
 Perform input and output operations using the string data type
 -------------------------------------------------------------------------------------------------------------------------------------
 Read data from a file (include examples)
