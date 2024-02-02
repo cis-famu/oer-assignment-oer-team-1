@@ -92,12 +92,31 @@ If you want your output in a fixed decimal format use:
 
 ### set w:
 
-The setw manipulator is employed to display the value of an expression within a specified number of columns, where the expression can be either a string or a number. Using setw(n) outputs the next expression in n columns with right justification. If, for instance, you set the number of columns to 6 but the output only needs three columns, the initial three columns remain empty. Moreover, if the specified number of columns is less than the actual columns needed for the output, the output automatically extends to the required number of columns without truncation. For instance, if 'x' is an integer variable, the subsequent statement outputs the value of 'x' in five columns on the standard output device:
+The setw manipulator is employed to display the value of an expression within a specified number of columns, where the expression can be either a string or a number. Using setw(n) outputs the next expression in n columns with right justification. If, for instance, you set the number of columns to 6 but the output only needs three columns, the initial three columns remain empty. Moreover, if the specified number of columns is less than the actual columns needed for the output, the output automatically extends to the required number of columns without truncation. You can use this with cout and <<, for instance
+
+				             cout << setw(3) << x << endl;
+This statment would output 'x' into 3 coloums. In order to use this manipulator you would have to include the header file iomanip, similar to the setprecision manipulator.
+
+
 
 ### setfill:
 
+Remember that with setw, if the specified number of columns is more than needed for the expression, the output aligns to the right, and the extra columns on the left get filled with spaces. By using setfill, you can make the output stream variables fill those extra columns with a character other than a space. The correct syntax is:
+
+				             ostreamVar << setfill(ch);
+
+Where 'ch' is the character and ostreamVar is the output stream variable.
+
+
 ### left and right Manipulators:
 
+Remember, if the specified number of columns in the setw tool is more than what the next expression needs, it's usually right-justified. However, if you want the output to be left-justified instead, you can use the left manipulator. For example :
+
+				             ostreamVar << left;
+		 
+You can use the same syntax with right, or you can disable this manipulator by using unsetf. The correct syntax is: 
+
+					ostreamVar.unsetf(ios::left); 
 
 _____________________________________________________________________________________________________________________________________
 Perform input and output operations using the string data type
