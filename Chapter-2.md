@@ -92,6 +92,8 @@ If you want your output in a fixed decimal format use:
 
 ### set w:
 
+The setw manipulator is employed to display the value of an expression within a specified number of columns, where the expression can be either a string or a number. Using setw(n) outputs the next expression in n columns with right justification. If, for instance, you set the number of columns to 6 but the output only needs three columns, the initial three columns remain empty. Moreover, if the specified number of columns is less than the actual columns needed for the output, the output automatically extends to the required number of columns without truncation. For instance, if 'x' is an integer variable, the subsequent statement outputs the value of 'x' in five columns on the standard output device:
+
 ### setfill:
 
 ### left and right Manipulators:
