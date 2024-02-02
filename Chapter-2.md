@@ -7,7 +7,7 @@ ________________________________________________________________________________
 Read data from the standard input device
 The standard input device is a keyboard and mouse used to control most operations of a computer. To read info from a keyboard specifically, the programmer must use “#include <iostream>” in the header file as explained above. Then within the code the function “cin” can be read from a keyboard.
 
-Fix this code below
+Fix the code below
 
         #include <fstream>
         #include <iostream>
@@ -22,7 +22,9 @@ Fix this code below
            cout << "My name is " << name << "." << endl;
         }
 
-The missing line is (cin >> name;)
+The missing line is:
+	
+ 	cin >> name;
 ________________________________________________________________________________________________________________________________
 Describe input stream functions get, ignore, putback, and peek
 
