@@ -53,21 +53,48 @@ ________________________________________________________________________________
 
 Chapter 2 discusses how important it is for programmers to generate the output they desire in their programs. It explains using the << operator and endl to display results on the screen. However, output isn't just about showing results it's also about formatting them correctly. For instance, sometimes you need to show numbers with a specific number of decimal places, like in a paycheck. Other times, you might need to align numbers in columns or fill empty spaces with certain characters. This section teaches you about different functions and manipulators to format your output exactly how you want it.
 
-Setprecision Manipulator:
+### Setprecision Manipulator:
 
 The manipulator setprecision is employed to manage the output of floating-point numbers. Typically, floating-point numbers are displayed in scientific notation by default. Certain integrated development environments (IDEs) may default to showing floating-point numbers with a maximum of six decimal places. However, in scenarios like printing an employee's paycheck, the desired output typically requires only two decimal places. To achieve this, the setprecision manipulator is utilized to adjust the precision to 2 for printing floating-point output with two decimal places.
 
 To use this manipulator the header file iomanip will need to be included in your code for example:
 
- #include <iomanip>
-				
+				           #include <iomanip>				
 
 You will use the setprecision manipulator with cout and << for example:
 
 
-				             cout << setprecision(2)
+				             cout << setprecision(2);
 		 
-Where the number 2 would occupy the intend nuber of decimal places.
+Where the number 2 would occupy the intend number of decimal places.
+
+### Fixed:
+
+To have more control over the display of floating-point numbers, additional manipulators can be utilized. When aiming to output floating-point numbers in a fixed decimal format, the manipulator fixed is employed. The subsequent statement demonstrates setting the output of floating-point numbers in a fixed decimal format on the standard output device:
+
+			                      cout << fixed;
+
+Once the preceding statement is executed, all floating-point numbers will be presented in the fixed decimal format until the manipulator fixed is deactivated. You can deactivate the fixed manipulator by employing the stream member function unsetf. For instance, to disable the fixed manipulator on the standard output device, you would use the following statement:
+
+				             cout.unsetf(ios::fixed);
+
+
+### showpoint: 
+
+If the decimal portion of a decimal number happens to be zero, instructing the computer to display the number in a fixed decimal format may result in the decimal point and the decimal part not being shown. To ensure that the output includes the decimal point and any trailing zeros, the manipulator showpoint is utilized. The subsequent statement demonstrates setting the output of decimal numbers to display the decimal point and any trailing zeros on the standard output device:
+
+			                      cout << showpoint;
+If you want your output in a fixed decimal format use:
+
+			                      cout << fixed << showpint;
+
+    
+
+### set w:
+
+### setfill:
+
+### left and right Manipulators:
 
 
 _____________________________________________________________________________________________________________________________________
