@@ -1,10 +1,27 @@
 Identify input and output streams
 
-A sequence of bytes that make up a set of characters is called a stream from the source (input) to a destination (output). Input streams come from a device into the computer, output streams come from the computer to some destination. To use input/output streams and devices C++ programs must have “#include <iostream>” in the header file. Allowing the programmer to use “cin” for input streams and “cout” for output streams.
-
+A sequence of bytes that make up a set of characters is called a stream from the source (input) to a destination (output). Input streams come from a device into the computer, output streams come from the computer to some destination. To use input/output streams and devices C++ programs must have #include <iostream> in the header file. Allowing the programmer to use “cin” for 
+input streams and “cout” for output streams.
+________________________________________________________________________________________________________________________________
 
 Read data from the standard input device
+The standard input device is a keyboard and mouse used to control most operations of a computer. To read info from a keyboard specifically, the programmer must use “#include <iostream>” in the header file as explained above. Then within the code the function “cin” can be read from a keyboard.
 
+Fix this code below
+#include <fstream>
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+   string name = "";
+   cout << "Enter Name here:    ";
+   // ENTER MISSING CODE HERE//
+   cout << "My name is " << name << "." << endl;
+}
+
+The missing line is (cin >> name;)
 ________________________________________________________________________________________________________________________________
 Describe input stream functions get, ignore, putback, and peek
 
