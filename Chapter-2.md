@@ -1,5 +1,8 @@
 Identify input and output streams
 
+A sequence of bytes that make up a set of characters is called a stream from the source (input) to a destination (output). Input streams come from a device into the computer, output streams come from the computer to some destination. To use input/output streams and devices C++ programs must have “#include <iostream>” in the header file. Allowing the programmer to use “cin” for input streams and “cout” for output streams.
+
+
 Read data from the standard input device
 
 ________________________________________________________________________________________________________________________________
