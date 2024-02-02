@@ -51,10 +51,69 @@ Write data to the standard output device
 Use manipulators in a program to format output
 
 Perform input and output operations using the string data type
-
+-------------------------------------------------------------------------------------------------------------------------------------
 Read data from a file (include examples)
 
+In this example there is a file named “neededdata.txt”
+In that file it will display the following 
+Hi! 
+This is group1.
+
+#include <iostream>
+#include <fstream> 
+#include <string>
+
+using namespace std;
+
+int main() {
+
+    ifstream inputFile("neededdata.txt");
+
+    string line;
+    cout << "Contents of the file:" << endl;
+  
+  while (getline(inputFile, line)) {
+        cout << line << endl;
+    }
+
+    inputFile.close();
+
+    return 0;
+}
+
+Once we run the code it will display “neededdata.txt” line by line.
+
+Review Question
+-------------------------------------------------------------------------------------------------------------------------------------
 Write data to a file (include examples)
+
+In this example there will be a text written to the file “needed.txt”
+
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main() 
+{
+    
+    ofstream outputFile("needed.txt");
+
+    outputFile << "Hi!" << endl;
+    outputFile << "This is group 1." << endl;
+
+    outputFile.close();
+
+    cout << "Data has been input into needed.txt" << endl;
+
+    return 0;
+}
+
+Once we run the code a file named “needed.txt” would then be created and the following “Hi!
+This is group 1” will be displayed inside of that file.
+
+Review Question
+-------------------------------------------------------------------------------------------------------------------------------------
 
 Summary
 
