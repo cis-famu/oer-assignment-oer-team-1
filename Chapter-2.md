@@ -261,6 +261,15 @@ Answer Key
 
 Summary
 
+- The two types of of streams are input and output.
+- Input streams are from inpt devices to the compter.
+- Output streams are from the computer to output devices.
+- When using "cin" and "cout" you must include iostream header.
+- "putback" puts the last character extracted from the input stream back into the 
+   stream
+- "peek" dives into the input stream and indentifies the next character and keeping 
+   it the same, it doesnt have to be removed. 
+
 Key terms
 
 Predefined functions: a wealth of functions that are already written. 
