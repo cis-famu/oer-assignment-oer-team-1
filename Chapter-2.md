@@ -175,7 +175,22 @@ int main() {
 
 Once we run the code it will display “neededdata.txt” line by line.
 
-Review Question
+Review Questions
+
+1.Including <fstream> allows the program to handle file input/output operations. T/F
+
+2.What is the purpose of the ifstream object in the program?
+A. To handle input/output operations with files.
+B. To read data from the standard input stream.
+C.  To write data to a file.
+D. To read data from the standard output stream.
+
+3.The close() function is used to close input file stream after reading from it. T/F
+
+
+Answer Key
+1.T 2.A 3.T
+
 -------------------------------------------------------------------------------------------------------------------------------------
 Write data to a file (include examples)
 
@@ -204,7 +219,22 @@ int main()
 Once we run the code a file named “needed.txt” would then be created and the following “Hi!
 This is group 1” will be displayed inside of that file.
 
-Review Question
+
+
+
+Review Questions
+
+1. The data would be written to "output.file" T/F
+2. It is optional to close the file. T/F
+3. What will the code read out?
+   A. "Hello World!"
+   B. "Hi This is incorrect."
+   C. "Hi this is group 1!"
+   D. "Hi! This is group 1!"
+
+
+Answer Key
+1.F 2.F 3.D
 -------------------------------------------------------------------------------------------------------------------------------------
 
 Summary
