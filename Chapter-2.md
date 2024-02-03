@@ -145,6 +145,25 @@ You can use the same syntax with right, or you can disable this manipulator by u
 
 					ostreamVar.unsetf(ios::left); 
 
+
+Review Questions
+
+1. What is the purpose of the setw manipulator in C++?
+2. How can you disable the fixed manipulator for floating-point numbers?
+3. When might the showpoint manipulator be useful when working with decimal numbers?
+
+Key
+
+1.  The setw manipulator is used to control the width of the output when displaying an expression in a specified number of columns.
+2.   You can disable the fixed manipulator by using the function unsetf.
+3.   The showpoint manipulator is useful when you want to force the output to display the decimal point and trailing zeros for decimal numbers.
+
+
+
+
+
+
+
 _____________________________________________________________________________________________________________________________________
 Perform input and output operations using the string data type
 -------------------------------------------------------------------------------------------------------------------------------------
