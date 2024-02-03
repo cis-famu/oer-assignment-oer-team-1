@@ -68,7 +68,8 @@ Peek
 All of the above 
   
 True  2. istreamVar.putback(ch)  3. (e) All of the above 
-________________________________________________________________________________________________________________________________
+
+
 Write data to the standard output device
 
 Writing data to the standard output device typically involves using a programming language or a command-line interface. 
