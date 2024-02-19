@@ -11,32 +11,19 @@ Selection statements give your code options when it runs, it’s like branches i
 
 **Else/If:**
 
-#include <fstream>
-
-#include <iostream>
-
-#include <string>
-
-using namespace std;
-
-int main()
-
-{
-
-int grade;
-
-cout << "Enter grade here:  ";
-
-cin >> grade;
-
- if (grade > 60)
- 
-  cout << "You passed!" << endl;
-  
-  else
-  
+ #include <fstream>
+ #include <iostream>
+ #include <string>
+ using namespace std;
+ int main()
+ {
+ int grade;
+ cout << "Enter grade here:  ";
+ cin >> grade;
+  if (grade > 60)
+   cout << "You passed!" << endl;
+   else
     cout << "You failed :(" << endl;
-    
     return 0;
     
 }
