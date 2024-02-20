@@ -127,3 +127,16 @@ Selection statements give your code options when it runs, it’s like branches i
 **Switch:**
 
 Demonstrate a switch statement in a program
+
+References
+
+_________________________________________________________________________________________________________
+
+Key Words
+
+Logical boolean expressions: an expression that has a value of either true or false. 
+
+Decision maker: the expression in an if statement which determines whether to execute the statement that follows it.
+
+Action statement: the statement following the expression in an if statement. 
+_________________________________________________________________________________________________________
