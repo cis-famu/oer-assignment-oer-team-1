@@ -55,6 +55,22 @@ Answer: True
 _________________________________________________________________________________________________________
 Identify how to form and evaluate logical (Boolean) expressions
 
+When forming a logical boolean expression it is important to remember that this expression has a value of either true or false. An expression will not work if the case is both true or both false. An incorrect version of an boolean expression would be Example 1, listed below. This expression is incorrect because the parentheses around the logical expression are missing, which is a syntax error. A correct version of a boolean expression would be Example 2, listed below. This version is right because the boolean expression is wrapped around in parenthesis following the if statement. The use of semicolons is important, if you insert a semicolon right after the parenthesis then the statement will not be operated. 
+
+
+
+Example 1: Incorrect  version 
+
+If score >= 60
+	grade = ‘P’:
+
+
+Example 2: 
+
+If (score >= 60)
+	Grade = ‘P’; 
+
+
 
 _________________________________________________________________________________________________________
 Use one-way and/or two-way selection syntax
