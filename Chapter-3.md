@@ -16,7 +16,7 @@ Example 2:
 Review Questions
 
 
-What is the purpose of relational operators in programming? 
+1. What is the purpose of relational operators in programming? 
 
 A) To declare variables 
 
@@ -41,7 +41,7 @@ D %
 Answer: B
 
 
-4. Is the following statement (true/false)
+3. Is the following statement (true/false)
    
 3 != 52
 
