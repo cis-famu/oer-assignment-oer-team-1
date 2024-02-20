@@ -82,7 +82,19 @@ Review Questions
 
 True or False 
 
-Answer: false
+Answer: False
+
+2. Fill in the blank.
+For a boolean expression to be correct the expression needs to be wrapped around in _______ following the if statement. 
+
+Answer: Parenthesis
+
+3. True or False, a boolean expression can have a value of true for expressions?
+ 
+Answer: False 
+
+
+
 
 
 _________________________________________________________________________________________________________
