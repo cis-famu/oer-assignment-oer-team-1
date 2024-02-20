@@ -11,7 +11,8 @@ This shows that lower case variables are greater than uppercase variables.
 
 Example 2: 
 
-![image](https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156258365/1ab3f655-b3b3-4989-81e8-c416e9283cc0)
+![image](https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156258365/f9e61d89-ed76-4f71-ba09-8e49587ef258)
+
 
 
 _________________________________________________________________________________________________________
