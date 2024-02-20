@@ -72,6 +72,10 @@ Example 2:
 If (score >= 60)
 	Grade = ‘P’; 
 
+Example 3: 
+
+![image](https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156258365/72c50849-2c9c-4a69-8ee3-3478106b365a)
+
 
 Review Questions 
 
