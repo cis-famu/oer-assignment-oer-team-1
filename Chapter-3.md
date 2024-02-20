@@ -6,7 +6,7 @@ Distinguish the relationship of relational operators and simple data types
 
 This topic relates to what we have already learned about data types and variables. In this chapter we are further defining these variables and giving them statements that either are true or false to the subject being expressed in the program. Keep on reading to learn about how you can implement this into your next program.
 
-RELATIONAL OPERATORS AND SIMPLE TYPES 
+RELATIONAL OPERATORS AND DATA TYPES 
 
 You can use relational operators with all three simple data types. For char values whether the expression evaluates to true or false depends on a machine's collating sequence. Comparing values of different data types may produce unpredictable results. There are only two logical values, true and false, they are useful because they permit programs to incorporate decision making that alters the processing flow. A relational operator is a programming language that defines some kind of relation between two entities. Operator symbols/ names can vary with meaning, look at example 2 for a better definition of the six we will use. 
 
@@ -50,8 +50,6 @@ Answer: B
 3 != 52
 
 Answer: True
-
-
 
 
 _________________________________________________________________________________________________________
