@@ -125,6 +125,43 @@ Selection statements give your code options when it runs, it’s like branches i
 }
 
 **Switch:**
+	#include <fstream>
+	#include <iostream>
+	#include <string>
+	using namespace std;
+
+	int main()
+	{
+	int grade;
+
+	cout << "Enter your grade out of 5 here:  ";
+	cin >> grade;
+	cout << endl;
+
+	switch (grade)
+ 	 {
+ 	   case 5 :
+	      cout << "You got an A!"  << endl << "Great job!" << endl;
+ 	   break;
+	    case 4 :
+   	   cout << "You got a B." << endl;
+ 	   break;
+	    case 3 :
+   	   cout << "You got an C."  << endl;
+	    break;
+	     case 2 :
+   	   cout << "You got an D."  << endl;
+ 	   break; 
+  	  case 1 :
+ 	     cout << "You got an F."  << endl;
+       		break;
+	 	case 0 :
+  	    cout << "WOW! You got them all wrong :(!"  << endl;
+  	  break;
+	  }
+
+	}
+	
 
 Demonstrate a switch statement in a program
 _________________________________________________________________________________________________________
