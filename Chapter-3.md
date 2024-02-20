@@ -13,6 +13,29 @@ Example 2:
 
 ![image](https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156258365/f9e61d89-ed76-4f71-ba09-8e49587ef258)
 
+Review Questions
+
+
+What is the purpose of relational operators in programming? 
+A) To declare variables 
+B) To perform mathematical equations 
+C) To create output statements 
+D) To define a relatisonhip between two entities.
+Answer: D
+
+2. Which of the following is a relational operator? 
+A)  &
+B) !=
+C) /
+D %
+Answer: B
+
+
+3. Is the following statement (true/false) 
+3 != 52
+Answer: True
+
+
 
 
 _________________________________________________________________________________________________________
