@@ -17,22 +17,34 @@ Review Questions
 
 
 What is the purpose of relational operators in programming? 
+
 A) To declare variables 
+
 B) To perform mathematical equations 
+
 C) To create output statements 
-D) To define a relatisonhip between two entities.
+
+D) To define a relatisonhip between two entities
+
 Answer: D
 
-2. Which of the following is a relational operator? 
+2. Which of the following is a relational operator?
+   
 A)  &
+
 B) !=
+
 C) /
+
 D %
+
 Answer: B
 
 
-3. Is the following statement (true/false) 
+4. Is the following statement (true/false)
+   
 3 != 52
+
 Answer: True
 
 
