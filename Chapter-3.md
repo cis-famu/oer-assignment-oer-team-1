@@ -127,9 +127,13 @@ Selection statements give your code options when it runs, it’s like branches i
 **Switch:**
 
 Demonstrate a switch statement in a program
-
+_________________________________________________________________________________________________________
 References
 
+Busbee, K. L. (2018, December 15). Relational operators. 
+	Programming Fundamentals.
+ 	https://harpercollege.pressbooks.pub/programmingfundamental
+  	s/chapter/relational-operators/ 
 _________________________________________________________________________________________________________
 
 Key Words
