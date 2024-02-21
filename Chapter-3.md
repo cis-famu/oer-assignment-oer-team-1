@@ -257,6 +257,29 @@ Busbee, K. L. (2018, December 15). Relational operators.
  	https://harpercollege.pressbooks.pub/programmingfundamental
   	s/chapter/relational-operators/ 
 _________________________________________________________________________________________________________
+Summary
+
+- Control structures in programming modify the standard flow of execution.
+- The main types are selection and repetition.
+- Relational operators (==, <, <=, >, >=, !=) are used in comparisons.
+- Logical expressions evaluate to 1 (true) or 0 (false).
+- Including a space within relational operators can lead to syntax errors.
+- Selection structures involve decisions based on conditions.
+- In C++, int and bool variables store logical expressions.
+- Logical operators: ! (not), && (and), || (or).
+
+- Two selection structures: one-way and two-way.
+- One-way structure executes a statement if the expression is true.
+- Two-way structure executes statement1 if true; otherwise, it executes statement2.
+
+- Compound statements, enclosed in curly braces, are treated as a single statement.
+
+- The input stream variable can be used in an if statement.
+- Using the assignment operator instead of the equality operator results in semantic errors.
+- Switch structure handles multiway selection, and break exits it.
+
+- Assert function can terminate a program if certain conditions are not met.
+_________________________________________________________________________________________________________
 
 Key Words
 
