@@ -11,12 +11,22 @@ Example:
 Logical operators are in place to combine multiple expressions or conditions and then evaluate them as single boolean results based on the truth values of said expression in the specific code. 
 
 The operators are && (AND), || (OR), and ! (NOT).
+
+
 "&&" works when an operand returns true, only if both evaluate to true. 
+
+
 Example: int x = 4
          int y = 2
         if (x > 0 && y < 10)
+
+
 "||" works when at least one of the expressions evaluates to be true.
+
+
 Example: num < 0 || num > 10
+
+
 "!" works when its the negation of the boolean value of its operand.
 Example: !true , this means it would result to be false. 
 
@@ -25,16 +35,29 @@ Their order if precedence are "!", "&&", and "||" from highest to lowest.
 Relational Operators are symbols used to compare relations between two values. Most commonly used for strings, numerical values, or variables that help form the structure of decision-making for the program. When used with string the ASCII collating sequence is used with character-by-character comparison.
 
 The operators are == (equal to), != (not equal to), > (greater than), < (less than), >= (greater than or equal to), <= (less than or equal to).
+
 "==" works by comparing two strings to see if they are identical.
+
+
 "!=" works by checking two stings to see if they are different.
+
+
 ">" works by comparing strings based on lexicographical order. It is only valid if 
     it would appear after the other.
+
+
 "<" works by comparing strings based on lexicographical order. It is only valid if 
     it would appear before the other.
+
+
 ">=" works by checking if the string would  would appear after the other or if it is the 
      identical.
+
+
 "<=" works by checking if the string would  would appear after the other or if it is the 
      identical.
+
+
 Example: string str1 = "purple"
          string str2 = "green"
         (str1 == str2) // false
