@@ -49,13 +49,15 @@ Their order if precedence are "<", "<=", ">", ">=", "!=", and "=="
 Review Questions
 1. The logicial operator && means that at least one of the expressions are true. (T/F)
 2. What is the order of precedence of Logical Operators?
+
    A. "!", "||", and "&&"
 
     B. "&&", "!", and "||"
 
    C. "!", "&&", and "||"   
 
-3. The relational operator "!=" means that it is not equal to. (T/F)
+4. The relational operator "!=" means that it is not equal to. (T/F)
+
 
 
 
