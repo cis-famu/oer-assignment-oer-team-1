@@ -1,6 +1,7 @@
 - Identify and use control structures. -
 Control structures are set to provide somewhat of an outline before creating an actual code. It's displayed as a diagram layout/flow chart that is the decision-making process of the program. It shows you what will happen if such a thing is added and what direction it will go. The most common control structures are sequence, selection, and repetition (loops)
-Example: <img width="713" alt="Screen Shot 2024-02-21 at 3 04 43 PM" src="https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156829293/5ece5cea-6423-4e56-b08e-14bcc47d06a4">
+Example:
+ <img width="713" alt="Screen Shot 2024-02-21 at 3 04 43 PM" src="https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156829293/5ece5cea-6423-4e56-b08e-14bcc47d06a4">
 
 
 - Identify logical and relational operators, how they work, and the order of precedence. -
@@ -13,7 +14,7 @@ Example: int x = 4
          int y = 2
         if (x > 0 && y < 10)
 "||" works when at least one of the expressions evaluates to be true.
-Example: 
+Example: num < 0 || num > 10
 "!" works when its the negation of the boolean value of its operand.
 Example: !true , this means it would result to be false. 
 
@@ -44,8 +45,15 @@ Example: string str1 = "purple"
 Their order if precedence are "<", "<=", ">", ">=", "!=", and "=="
 
 Review Questions
-1.
+1. The logicial operator && means that at least one of the expressions are true. (T/F)
+2. What is the order of precedence of Logical Operators?
+   A. "!", "||", and "&&"
+   B. "&&", "!", and "||"
+   C. "!", "&&", and "||"   
+3. The relational operator "!=" means that it is not equal to. (T/F)
 
+
+ANSWER KEY: 1.F 2.C 3.T
 _________________________________________________________________________________________________________
 Distinguish the relationship of relational operators and simple data types
 
