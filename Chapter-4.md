@@ -5,7 +5,8 @@ Outcome 2: Identify real-world scenarios where repetition control structures str
 Outcome 3: Compare the efficiency of code written with and without repetition structures.
 
 1. Repetition in programming is the basic ability to perfrom a block a code multiple times based on a condition that hass been set by the programmer. This allows the program to
-   atomatically perform task with the same set of insctrctions without having to rewrite the code however many times is need. All in all it is a time saver.  
+   automatically perform task with the same set of insctrctions without having to rewrite the code however many times is need. All in all it is a time saver.
+2.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
