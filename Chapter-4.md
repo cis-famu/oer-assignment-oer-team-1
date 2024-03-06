@@ -3,6 +3,16 @@ I. Recognizing the Power of Repetition
 Outcome 1: Explain the core concept of repetition in programming.
 Outcome 2: Identify real-world scenarios where repetition control structures streamline code.
 Outcome 3: Compare the efficiency of code written with and without repetition structures.
+
+1. Repetition in programming is the basic ability to perfrom a block a code multiple times based on a condition that hass been set by the programmer. This allows the program to
+   atomatically perform task with the same set of insctrctions without having to rewrite the code however many times is need. All in all it is a time saver.  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 II. Demystifying While Loops
 
 Outcome 1: Construct basic while loops with correct initialization, condition checking, and updates.
