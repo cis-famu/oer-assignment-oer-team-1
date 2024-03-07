@@ -95,8 +95,38 @@ ________________________________________________________________________________
 V. Nesting Control Structures: Loops within Loops
 
 Outcome 1: Create nested loops to solve problems requiring multiple levels of iteration.
+
+
+#include <iostream>
+using namespace std;
+int main (){
+
+
+    for (int i = 1; i <= 5; i++)
+    {
+        for (int j = 1; j <= i; j++)
+            cout << ":)";
+        cout << endl;
+    }
+    return 0;
+}
+
+
 Outcome 2: Control the execution flow of nested loops effectively to achieve the desired outcome.
+
+To control the execution flow of nested loops effectively, you can use the control statements like break and continue to alter the loop behavior based on certain conditions. 
+
+
 Outcome 3: Debug nested loops with multi-dimensional iteration patterns
+
+
+A software patch is a piece of code written on top of an existing piece of code intended to fix a bug in the original code.  Adding a patch can eliminate the symptom.
+
+Patch example: 
+
+If (i != 4)
+
+
 
 
 
