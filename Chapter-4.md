@@ -91,13 +91,26 @@ IV. Manipulating Loop Behavior: Break and Continue
 Outcome 1: Demonstrate the use of 'break' to prematurely exit a loop.
 Outcome 2: Apply 'continue' to skip the remaining portion of a loop iteration and advance to the next.
 Outcome 3: Design scenarios where the strategic use of 'break' and 'continue' enhances code readability and efficiency.
+____________________________________________________________________________________________________________________________________________________________
 V. Nesting Control Structures: Loops within Loops
 
 Outcome 1: Create nested loops to solve problems requiring multiple levels of iteration.
 Outcome 2: Control the execution flow of nested loops effectively to achieve the desired outcome.
-Outcome 3: Debug nested loops with multi-dimensional iteration patterns.
+Outcome 3: Debug nested loops with multi-dimensional iteration patterns
+
+
+
+____________________________________________________________________________________________________________________________________________________________
 VI. Debugging Strategies: Perfecting Your Loops
 
 Outcome 1: Identify common logical errors arising in repetition control structures.
 Outcome 2: Utilize debugging tools to trace code execution and locate the source of errors within loops.
 Outcome 3: Develop preventive coding practices to minimize the occurrence of logic errors in loops.
+
+____________________________________________________________________________________________________________________________________________________________
+Key Terms 
+____________________________________________________________________________________________________________________________________________________________
+References
+
+https://www.bing.com/images/search?view=detailV2&ccid=rFFSCduI&id=DB2F9AFB214969E4D1D99D5F0A53521829B54E00&thid=OIP.rFFSCduIZgjqWUDw1Mc5ugHaC-&mediaurl=https%3a%2f%2fpynative.com%2fwp-content%2fuploads%2f2021%2f06%2fpython-nested-for-loop-768x308.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.ac515209db886608ea5940f0d4c739ba%3frik%3dAE61KRhSUwpfnQ%26pid%3dImgRaw%26r%3d0&exph=308&expw=768&q=example+of+nestd+loop+C%2b%2b&simid=608008911287628791&FORM=IRPRST&ck=214E7D892FEDA9E883326E78F94C8DFB&selectedIndex=68&itb=0&ajaxhist=0&ajaxserp=0
+____________________________________________________________________________________________________________________________________________________________
