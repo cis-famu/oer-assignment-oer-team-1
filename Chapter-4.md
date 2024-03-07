@@ -133,6 +133,25 @@ If (i != 4)
 
 REVIEW QUESTIONS
 
+1. True or False? Nested loops are loops within a loop.
+
+ True/ False
+ 
+ANSWER: TRUE
+
+
+2. True or False? The break statement can only be used within the innermost loop in a nested loop structure.
+   
+True/False
+
+ANSWER: FALSE
+
+
+4. Fill in the Blank.
+   
+In nested loops, the inner loop runs _____ times for each iteration of the outer loop.
+
+ANSWER: MULTIPLE
 
 ____________________________________________________________________________________________________________________________________________________________
 VI. Debugging Strategies: Perfecting Your Loops
