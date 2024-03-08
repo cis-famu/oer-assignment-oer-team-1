@@ -166,6 +166,25 @@ Outcome 3: Develop preventive coding practices to minimize the occurrence of log
 
 ____________________________________________________________________________________________________________________________________________________________
 Key Terms 
+
+Infinite loop: A loop that continues to execute endlessly.
+
+Counter controlled while loop: A while loop that is used when you know how many items of data are to be read.
+
+Sentinel: A special value that will tell the loop to stop.
+
+Flag controlled while loop: Usess a boolean varaible to control the execution of the loop.
+
+End of fike controlled while loop: A while loop that stops when it reaches the end of the input file.
+
+For loop: Used to simplify the writing of counter controlled loops; consiists of an initalization statement, loop condition, and the update statement.
+
+Nesting: A process that involves putting one control structure inside another.
+
+Pretest loops: While and for loops evalutes the loop condition before executing the body of the loop.
+
+Posttest loops: Do while loops areevaluted after executing the body of the loop. 
+
 ____________________________________________________________________________________________________________________________________________________________
 References
 
