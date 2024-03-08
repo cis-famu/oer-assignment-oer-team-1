@@ -86,11 +86,15 @@ III. Conditional Logic: Controlling Flow with If and Else
 Outcome 1: Write 'if' statements to implement decision-making within loops.
 Outcome 2: Incorporate 'else' and 'else if' statements to create multi-branch conditional logic.
 Outcome 3: Apply nested 'if' statements to handle complex decision scenarios within loops.
-IV. Manipulating Loop Behavior: Break and Continue
 
+If statements are a type of conditional statement that allows the programer to ensure a certian set of execuables only happen when a conditon or a number of conditons is met. In other words the function executes _if_ the conditon(s) are true. An else if statement is one that only exists within a larger conditional branch, else if statements execute if their conditional statement is true and the previous statement reads false. Several if else statments can be used one after the other for different conditons creating a large tree of differnet paths. Else statements execute if all the previous if and if else statements read false. Nested if statements create more complex trees by creating conditional statements within conditional statements. Each of the 3 statments and a nested if statement can be found with explainations below.
+
+IV. Manipulating Loop Behavior: Break and Continue
 Outcome 1: Demonstrate the use of 'break' to prematurely exit a loop.
 Outcome 2: Apply 'continue' to skip the remaining portion of a loop iteration and advance to the next.
 Outcome 3: Design scenarios where the strategic use of 'break' and 'continue' enhances code readability and efficiency.
+
+
 ____________________________________________________________________________________________________________________________________________________________
 V. Nesting Control Structures: Loops within Loops
 
@@ -107,7 +111,7 @@ int main (){
         for (int j = 1; j <= i; j++)
             cout << ":)";
         cout << endl;
-    }
+     }
     return 0;
 }
 
