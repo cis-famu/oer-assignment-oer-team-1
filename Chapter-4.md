@@ -161,7 +161,12 @@ ________________________________________________________________________________
 VI. Debugging Strategies: Perfecting Your Loops
 
 Outcome 1: Identify common logical errors arising in repetition control structures.
+
+Incorrect loop boundaries may lead to off-by-one errors. Ensure the loop condition is correct and terminates at the intended point. Failure to update the loop control variable inside the loop may result in an infinite loop. Initializing the loop control variable with the wrong value can cause unexpected behavior. Complex conditions in loop statements may lead to unintended behavior. You also need to ensure a proper mechanism exists to exit the loop when the desired condition is met. Another common error is incorrectly updating the loop control variable; it may result in unexpected behavior. Verify that loop control variables are used appropriately within the loop. Lastly, be cautious with direct equality comparisons for floating-point variables due to precision issues.
+
 Outcome 2: Utilize debugging tools to trace code execution and locate the source of errors within loops.
+
+
 Outcome 3: Develop preventive coding practices to minimize the occurrence of logic errors in loops.
 
 ____________________________________________________________________________________________________________________________________________________________
