@@ -11,9 +11,6 @@ Outcome 3: Compare the efficiency of code written with and without repetition st
 
 II. Demystifying While Loops
 
-Outcome 1: Construct basic while loops with correct initialization, condition checking, and updates.
-Outcome 2: Differentiate between for loops, do-while loops, and EOF-controlled loops, using examples.
-Outcome 3: Modify loops to iterate a specific number of times or until a user-defined condition is met.
 
 1.
 #include <iostream>
@@ -83,9 +80,6 @@ int main() {
 
 
 III. Conditional Logic: Controlling Flow with If and Else
-Outcome 1: Write 'if' statements to implement decision-making within loops.
-Outcome 2: Incorporate 'else' and 'else if' statements to create multi-branch conditional logic.
-Outcome 3: Apply nested 'if' statements to handle complex decision scenarios within loops.
 
 If statements are a type of conditional statement that allows the programer to ensure a certian set of execuables only happen when a conditon or a number of conditons is met. In other words the function executes _if_ the conditon(s) are true. An else if statement is one that only exists within a larger conditional branch, else if statements execute if their conditional statement is true and the previous statement reads false. Several if else statments can be used one after the other for different conditons creating a large tree of differnet paths. Else statements execute if all the previous if and if else statements read false. Nested if statements create more complex trees by creating conditional statements within conditional statements. Each of the 3 statments and a nested if statement can be found with explainations below.
 
