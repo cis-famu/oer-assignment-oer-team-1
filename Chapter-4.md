@@ -107,7 +107,9 @@ If statements are a type of conditional statement that allows the programer to e
      cout << "How many United States Presdents have there been? (enter the answer below)" << endl;
     cout << "a) 45" << endl << "b) 49" << endl << "c) 51 " << endl << "c) 42 " << endl;
     cin >> userinput;
-    if (userinput == "a" ){
+    if (userinput == "a" ){  
+
+    // this if statmens above is _nested_ within the first one
     
       cout << "Great Job! +1 point" << endl;
       points++;
@@ -123,6 +125,8 @@ If statements are a type of conditional statement that allows the programer to e
       points++;
     }
     
+    // each of these if else statements showcase multi scenario logic
+    
     else if (userinput < "1900"){
       cout << "Bro youre dumb" << endl;
     }
@@ -132,17 +136,12 @@ If statements are a type of conditional statement that allows the programer to e
     else if (userinput < "1945"){
       cout << "Too far!" << endl;
     }
+     //this else statement shows what happens in all scenarios not listed above
     else {
       cout << "This isnt even an integer bro?" << endl; 
     
       }
-    
-
-
-    
   
-
-
     }
 
     cout << points << " points";
