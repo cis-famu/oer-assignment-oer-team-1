@@ -162,7 +162,12 @@ VI. Debugging Strategies: Perfecting Your Loops
 
 Outcome 1: Identify common logical errors arising in repetition control structures.
 
-Incorrect loop boundaries may lead to off-by-one errors. Ensure the loop condition is correct and terminates at the intended point. Failure to update the loop control variable inside the loop may result in an infinite loop. Initializing the loop control variable with the wrong value can cause unexpected behavior. Complex conditions in loop statements may lead to unintended behavior. You also need to ensure a proper mechanism exists to exit the loop when the desired condition is met. Another common error is incorrectly updating the loop control variable; it may result in unexpected behavior. Verify that loop control variables are used appropriately within the loop. Lastly, be cautious with direct equality comparisons for floating-point variables due to precision issues.
+Incorrect loop boundaries may lead to off-by-one errors. Ensure the loop condition is correct and terminates at the intended point. Failure
+to update the loop control variable inside the loop may result in an infinite loop. Initializing the loop control variable with the wrong
+value can cause unexpected behavior. Complex conditions in loop statements may lead to unintended behavior. You also need to ensure a
+proper mechanism exists to exit the loop when the desired condition is met. Another common error is incorrectly updating the loop control
+variable; it may result in unexpected behavior. Verify that loop control variables are used appropriately within the loop. Lastly, be 
+cautious with direct equality comparisons for floating-point variables due to precision issues.
 
 Outcome 2: Utilize debugging tools to trace code execution and locate the source of errors within loops.
 
@@ -191,22 +196,38 @@ int main() {
     return 0;
 }
 
-In this example, these print statements serve as a form of debugging output, helping you understand the flow of execution and verify variable values.
+In this example, these print statements serve as a form of debugging output, helping you understand the flow of execution and verify 
+variable values.
 
 Outcome 3: Develop preventive coding practices to minimize the occurrence of logic errors in loops.
 
-To minimize the occurrence of logic errors in loops in C++, you can adopt preventive coding practices. These practices focus on writing clean and understandable code that executes properly.
+To minimize the occurrence of logic errors in loops in C++, you can adopt preventive coding practices. These practices focus on writing 
+clean and understandable code that executes properly.
 
 Test Edge Cases:
-Thoroughly test loops with boundary values and edge cases to identify and address potential issues related to loop conditions and variable values.
+Thoroughly test loops with boundary values and edge cases to identify and address potential issues related to loop conditions and variable
+values.
 
 Initialize Loop Control Variables:
 Always initialize loop control variables before using them in a loop. This helps prevent unexpected behavior due to uninitialized variables.
 
 Avoid Unnecessary Infinite Loops:
-Always ensure there is a clear exit condition for loops to prevent unintentional infinite loops. Use a break statement or an appropriate condition to exit the loop when needed.
+When confronted with an infinite loop, the root cause typically lies in the logical expression controlling the loop's execution. It is 
+crucial to meticulously inspect the logical expression for potential issues, such as reversed inequalities, mistaken assignment symbols in 
+place of equality operators, or improper use of && instead of ||. Always ensure there is a clear exit condition for loops to prevent 
+unintentional infinite loops. Use a break statement or an appropriate condition to exit the loop when needed. 
 
+Review questions:
+1. What is the most common error associated with loops?
 
+2. What is the significance of debugging in the software development process?
+
+3. What is it called when you test the loops with boundary values?
+   
+Answers:
+1. The most common error associated with loops is off-by-one.
+2. It ensures the program's reliability by discovering and fixing issues before releasing it to users.
+3. Test Edge Cases.
 ____________________________________________________________________________________________________________________________________________________________
 Key Terms 
 
