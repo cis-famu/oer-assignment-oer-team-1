@@ -152,7 +152,71 @@ Outcome 1: Demonstrate the use of 'break' to prematurely exit a loop.
 Outcome 2: Apply 'continue' to skip the remaining portion of a loop iteration and advance to the next.
 Outcome 3: Design scenarios where the strategic use of 'break' and 'continue' enhances code readability and efficiency.
 
+Switch statements allow the programer to write an outcome to each possible input. Another way to think of a switch is as book with indexed pages and if you want a specific page the computer can call it up without reading each page before it. Break statements allow the prgram to exit the switch statement as soon as the correct page is found, optimizing your program speed and resource usage.
 
+    switch (sleep){
+        case 0:
+        --dailyscore;
+        --dailyscore;
+        cout << "Stop habit tracking and go get some rest!" << endl;
+        break;
+
+        case 1:
+        --dailyscore;
+        --dailyscore;
+        cout << "You should get some rest!" << endl;
+        break;
+
+        case 2:
+        --dailyscore;
+        cout << "You should get some rest!" << endl;
+        break;
+
+        case 3:
+        --dailyscore;
+        cout << "You should get some rest!" << endl;
+        break;
+
+        case 4:
+        cout << "You should get some rest!" << endl;
+        break;
+        case 5:
+       ++dailyscore;
+        cout << "You're doing okay on rest, but don't be afraid to take a nap!" << endl;
+        break;
+
+        case 6:
+        ++dailyscore;
+        cout << "Good job, keep it up." << endl;
+        break;
+
+        case 7: 
+        ++dailyscore;
+        cout << "Nice, keep up the good work." << endl;
+        break;
+
+        case 8: 
+        ++dailyscore;
+        cout << "Right on track, you deserve a gold star!" << endl;
+        break;
+
+        case 9:
+        ++dailyscore;
+        cout << "You're doing good on rest, but don't sleep too much" << endl;
+        break;
+    }
+    if (sleep > 9)
+        cout << "Maybe you should get outside and use some of that extra rest." << endl;
+        --dailyscore;
+        
+Continue statments allow the program to exit a loop if a secific requirement is met like the number of iterations for example
+
+    for (int i = 4; i < 80; i++) {
+       if (i > 7 ) {
+         continue;
+      }
+       cout << i;
+      }
 ____________________________________________________________________________________________________________________________________________________________
 V. Nesting Control Structures: Loops within Loops
 
