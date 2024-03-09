@@ -166,8 +166,46 @@ Incorrect loop boundaries may lead to off-by-one errors. Ensure the loop conditi
 
 Outcome 2: Utilize debugging tools to trace code execution and locate the source of errors within loops.
 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int n = 5;
+    int sum = 0;
+
+    // The Loop calculates the sum of numbers from 1 to n
+    for (int i = 1; i <= n; ++i) {
+        // Print loop control variable and intermediate result for debugging
+        cout << "Iteration " << i << ": ";
+        cout << "Current sum = " << sum << ", Adding " << i << endl;
+
+        // Update the sum
+        sum += i;
+    }
+
+    // Print the final result
+    cout << "\nFinal sum: " << sum << endl;
+
+    return 0;
+}
+
+In this example, these print statements serve as a form of debugging output, helping you understand the flow of execution and verify variable values.
 
 Outcome 3: Develop preventive coding practices to minimize the occurrence of logic errors in loops.
+
+To minimize the occurrence of logic errors in loops in C++, you can adopt preventive coding practices. These practices focus on writing clean and understandable code that executes properly.
+
+Test Edge Cases:
+Thoroughly test loops with boundary values and edge cases to identify and address potential issues related to loop conditions and variable values.
+
+Initialize Loop Control Variables:
+Always initialize loop control variables before using them in a loop. This helps prevent unexpected behavior due to uninitialized variables.
+
+Avoid Unnecessary Infinite Loops:
+Always ensure there is a clear exit condition for loops to prevent unintentional infinite loops. Use a break statement or an appropriate condition to exit the loop when needed.
+
 
 ____________________________________________________________________________________________________________________________________________________________
 Key Terms 
