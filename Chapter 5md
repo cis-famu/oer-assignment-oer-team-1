@@ -1,0 +1,21 @@
+//Understanding the Purpose of Functions//
+Explain what a function is and why functions are used in programming.
+Describe the benefits of using functions (code reusability, modularity, abstraction).
+
+//Function Syntax and Structure//
+Define the key components of a function: return type, function name, parameters, function body, and return statement.
+Differentiate between void and value returning functions.
+Demonstrate the use of the return statement to return values from functions.
+Identify function prototypes.
+
+//Writing Basic Functions//
+Create custom functions in C++ with appropriate return types and parameters to solve simple problems.
+
+//Calling Functions//
+Call functions from within other functions or the main function, passing arguments correctly.
+Understand the concept of passing arguments by value.
+Understand the concept of passing arguments by reference.
+
+//Function Overloading//
+Explain the concept of function overloading.
+Write simple overloaded functions.
