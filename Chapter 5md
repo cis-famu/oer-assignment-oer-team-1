@@ -1,5 +1,5 @@
 //Understanding the Purpose of Functions//
-Explain what a function is and why functions are used in programming.
+-Explain what a function is and why functions are used in programming.-
 
 A function in programming is a block of code. It's  like a recipe. It's a set of instructions that performs a specific task when you use it.
 A function is sort of like a  mini-program inside a larger program. Functions help keep your code organized and easier to understand because 
@@ -8,7 +8,7 @@ and over again. It limits the redundancy. So, whenever we need to perform a part
 out all the instructions again.
 
 
-Describe the benefits of using functions (code reusability, modularity, abstraction).
+-Describe the benefits of using functions (code reusability, modularity, abstraction)-
 
 Code Reusability: With functions you are able to write a code one time and reuse that code as many times as you desire throughout your program. 
 This ultimately saves you time and reduces the chances of small errors in your code.  
