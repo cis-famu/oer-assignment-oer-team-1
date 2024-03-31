@@ -1,6 +1,16 @@
 //Understanding the Purpose of Functions//
 Explain what a function is and why functions are used in programming.
+
+A function in programming is a block of code. It's  like a recipe. It's a set of instructions that performs a specific task when you use it.
+A function is sort of like a  mini-program inside a larger program. Functions help keep your code organized and easier to understand because 
+they group related tasks together in one. Functions  also make it easier to reuse code, which means we don't have to write the same thing over 
+and over again. It limits the redundancy. So, whenever we need to perform a particular task, we can just call the function instead of writing 
+out all the instructions again.
+
+
 Describe the benefits of using functions (code reusability, modularity, abstraction).
+
+
 
 //Function Syntax and Structure//
 Define the key components of a function: return type, function name, parameters, function body, and return statement.
