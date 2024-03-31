@@ -125,3 +125,5 @@ Function overloading is a feature that allows the programmer to use the same fun
     return 0;
 
     }
+
+However, issues may occur if the overloaded functions overlap your code will likely out put an 'ambigious' error because it is unclear to the compiler which of your overloaded funtion youre refrencing. An example can be seen below:
