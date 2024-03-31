@@ -39,51 +39,51 @@ This C++ program checks if a given integer is even or odd. It prompts the user t
 function called isEven(). If the number is even, it prints "even", otherwise "odd". This program demonstrates the simplicity of using
 functions in C++ to solve basic arithmetic problems.
 
-  #include <iostream>
-  
-  using namespace std;
-  
-  bool isEven(int n) {
-    return (n % 2 == 0);
-    }
-  
-  int main() {
-      int num;
-      cout << "Enter a number: ";
-      cin >> num;
-      if (isEven(num))
-          cout << num << " is even." << endl;
-          else
-          cout << num << " is odd." << endl;
-          return 0;
-          }
+      #include <iostream>
+      
+      using namespace std;
+      
+      bool isEven(int n) {
+        return (n % 2 == 0);
+        }
+      
+      int main() {
+          int num;
+          cout << "Enter a number: ";
+          cin >> num;
+          if (isEven(num))
+              cout << num << " is even." << endl;
+              else
+              cout << num << " is odd." << endl;
+              return 0;
+              }
 
 This next program demonstrates a simple function to determine whether a given integer is positive, negative, or zero. The function
 checkNumber() takes an integer as input and prints a corresponding message based on its sign. The main function prompts the user to enter a
 number, calls the checkNumber() function, and outputs the result accordingly. This program showcases the use of functions and conditional
 statements in C++ to analyze basic numeric values.
   
-  #include <iostream>
-  
-  using namespace std;
-  
-  // Function to check if a number is positive, negative, or zero
-  void checkNumber(int num) {
-      if (num > 0)
-          cout << num << " is positive." << endl;
-      else if (num < 0)
-          cout << num << " is negative." << endl;
-      else
-          cout << num << " is zero." << endl;
-  }
-  
-  int main() {
-      int num;
-      cout << "Enter a number: ";
-      cin >> num;
-      checkNumber(num);
-      return 0;
-  }
+      #include <iostream>
+      
+      using namespace std;
+      
+      // Function to check if a number is positive, negative, or zero
+      void checkNumber(int num) {
+          if (num > 0)
+              cout << num << " is positive." << endl;
+          else if (num < 0)
+              cout << num << " is negative." << endl;
+          else
+              cout << num << " is zero." << endl;
+      }
+      
+      int main() {
+          int num;
+          cout << "Enter a number: ";
+          cin >> num;
+          checkNumber(num);
+          return 0;
+      }
 ___________________________________________________________________________________________________________________
 //Calling Functions//
 Call functions from within other functions or the main function, passing arguments correctly.
