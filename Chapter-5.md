@@ -1,4 +1,4 @@
-//Understanding the Purpose of Functions//
+  //Understanding the Purpose of Functions//
 -Explain what a function is and why functions are used in programming.-
 
 A function in programming is a block of code. It's  like a recipe. It's a set of instructions that performs a specific task when you use it.
@@ -91,5 +91,37 @@ Understand the concept of passing arguments by value.
 Understand the concept of passing arguments by reference.
 
 //Function Overloading//
-Explain the concept of function overloading.
-Write simple overloaded functions.
+Function overloading is a feature that allows the programmer to use the same function to do different things. Normally something like this would be a problem however, when the function is used multiple times with different amounts or kinds of parameters each one can be used as if they were named entirely different functions. An example with notes can be seen below:
+
+    #include <iostream>
+    #include <string>
+
+    using namespace std;
+
+    int multiply(int x, int y){
+      return  x * y;
+    }
+
+    // This statement works because it has more int arguments than the original
+    int multiply(int x, int y, int z){ 
+      return  x * y * z;
+    }
+
+    //----------------------------------------------------
+    // This statement works because it the double argument
+    // is not shared with the other multiply functions
+    //----------------------------------------------------
+    double multiply(double x, double y, double z){
+      return  x * y * z;
+    }
+
+    int main(){
+
+    // each of the cout functions list the  arguemts that correlate to one of the multiply fuctions
+    cout << multiply (4,3) << endl;
+    cout << multiply (4,3,2) << endl; 
+    cout << multiply (4.2,3.5,2.9) << endl;
+
+    return 0;
+
+    }
