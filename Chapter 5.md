@@ -38,7 +38,6 @@ Identify function prototypes.
 This C++ program checks if a given integer is even or odd. It prompts the user to enter a number, then determines its parity using a basic function called isEven(). If the number is even, it prints "even", otherwise "odd". This program demonstrates the simplicity of using functions in C++ to solve basic arithmetic problems.
 
 #include <iostream>
-
 using namespace std;
 
 // Function to check if a number is even or odd
