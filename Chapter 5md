@@ -10,6 +10,14 @@ out all the instructions again.
 
 Describe the benefits of using functions (code reusability, modularity, abstraction).
 
+Code Reusability: With functions you are able to write a code one time and reuse that code as many times as you desire throughout your program. 
+This ultimately saves you time and reduces the chances of small errors in your code.  
+
+
+Modularity: Functions help by collapsing the program into smaller parts, that essentially is easier for the program to read. Each function can be
+used to solve a certain problem or perform a certain task.You are also able to collaborate with your team on different functions.This makes your code
+easy to read, organized, and simple. 
+
 
 
 //Function Syntax and Structure//
