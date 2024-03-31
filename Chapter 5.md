@@ -34,7 +34,29 @@ Demonstrate the use of the return statement to return values from functions.
 Identify function prototypes.
 
 //Writing Basic Functions//
-Create custom functions in C++ with appropriate return types and parameters to solve simple problems.
+
+This C++ program checks if a given integer is even or odd. It prompts the user to enter a number, then determines its parity using a basic function called isEven(). If the number is even, it prints "even", otherwise "odd". This program demonstrates the simplicity of using functions in C++ to solve basic arithmetic problems.
+
+#include <iostream>
+
+using namespace std;
+
+// Function to check if a number is even or odd
+bool isEven(int n) {
+    return (n % 2 == 0);
+}
+
+int main() {
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
+    if (isEven(num))
+        cout << num << " is even." << endl;
+    else
+        cout << num << " is odd." << endl;
+    return 0;
+}
+
 
 //Calling Functions//
 Call functions from within other functions or the main function, passing arguments correctly.
