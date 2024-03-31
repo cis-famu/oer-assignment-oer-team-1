@@ -18,6 +18,13 @@ Modularity: Functions help by collapsing the program into smaller parts, that es
 used to solve a certain problem or perform a certain task.You are also able to collaborate with your team on different functions.This makes your code
 easy to read, organized, and simple. 
 
+Abstraction: The functions don't reveal the details of how the codes work. However it isn't really needed. What's important is how the code works and 
+how to use it properly. This makes your code simpler, easier to understand, and easier to maintain. When you modify the function you can do so without 
+affecting the rest of your code.
+
+
+
+
 
 
 //Function Syntax and Structure//
