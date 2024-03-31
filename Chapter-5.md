@@ -127,3 +127,58 @@ Function overloading is a feature that allows the programmer to use the same fun
     }
 
 However, issues may occur if the overloaded functions overlap your code will likely out put an 'ambigious' error because it is unclear to the compiler which of your overloaded funtion youre refrencing. An example can be seen below:
+
+    #include <iostream>
+    #include <string>
+
+    using namespace std;
+
+    int multiply(int x, int y){
+      return  x * y;
+    }
+
+    int multiply(int x, int y, int z){ 
+      return  x * y * z;
+    }
+
+    double multiply(double x, double y, double z){
+      return  x * y * z;
+    }
+
+    int main(){
+
+    cout << multiply (4,3) << endl;
+    cout << multiply (4,3,2) << endl; 
+    cout << multiply (4,3.5,2.9) << endl; //<------
+
+    return 0;
+
+    }
+
+The compiler does not know which iteration of the multiply function to use because the arguments over lap the int (4) should be a double (4.0).
+
+For practice copy and paste the code below into a shell and fill in the blanks:
+
+    #include <iostream>
+    #include <string>
+
+    using namespace std;
+
+    int add(int x, int y){
+      return  x + y;
+    }
+
+    int add(______________){ 
+      return  x + y + z;
+    }
+
+    int main(){
+
+    cout << add (4,3) << endl;
+    cout << add (________) << endl; 
+
+
+    return 0;
+
+    }
+
