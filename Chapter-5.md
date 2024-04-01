@@ -233,3 +233,15 @@ For practice copy and paste the code below into a shell and fill in the blanks:
 
     }
 
+### KEY TERMS
+
+Parameters: an identifier in a function header, which acts within the function as a regular local variable; a parameter may be former or actual.
+
+Function header: includes the name of the function, the number of parameters if any, the data type of each parameter, and the data type of the value returned by the function.
+
+Body: the code within the function required to accomplish the task.
+
+Definition: includes the name of the function, a listing of the parameters if any, the data type of each parameter, the data type of the value returned by the function, and the code required to accomplish the task.
+
+Function prototypes: a function heading without the body of the function.
+
