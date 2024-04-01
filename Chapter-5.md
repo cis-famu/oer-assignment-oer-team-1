@@ -33,6 +33,56 @@ Differentiate between void and value returning functions.
 Demonstrate the use of the return statement to return values from functions.
 Identify function prototypes.
 
+### Function Syntax and Structure
+
+To use these functions in your programs you must know the name of the header fiel the contains the functions specification. Some important information that needs to be included will be stated below. 
+Name of the function
+Parameters 
+Data type of each parameter
+Data type of the value computed by the function
+Another thing associated with functions is to add the code required to accomplish the task or it will not get done! Some properties include heading, function header, body; these eventually form the definition. (Please refer to key terms to further understand: parameters, function headers, body and definition) 
+
+Void and Value-returning functions
+
+With value-returning functions they return only one value and they are used in an assignment statement, as a parameter in a function call, or in an output statement. The return statement will be based on the function that takes a parameter of a certain value, but it only gives one answer. Whereas in void functions they do not contain data types. However, in a void function you can use the return statement without any value; it is typically used to exit the function early instead. 
+
+Return statements
+
+The return statement allows us to pass data from the function back to the caller, enabling functions to perform computations and provide results that can be used in other parts of the program.
+
+![image](https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156258365/10c4eaf8-cb07-42b0-b4c0-9b4e570d1269)
+
+
+Function Prototype
+
+Function prototypes give the program the name of the function, the number and data types of the parameters, and the data type of the returned value. 
+
+*The function heading, terminated by a semicolon, ;, without the body of the function.
+
+
+Review Questions
+
+
+
+1. Which of the following is NOT a key component of a function in C++?
+A) Function name
+B) Function declaration
+C) Return statement
+D) Parameters
+Answer: B) Function declaration
+
+
+2. What is the purpose of a return statement in a function?
+A) To declare the function name
+B) To define parameters
+C) To indicate the end of the function body
+D) To return a value from the function
+Answer: D) To return a value from the function
+
+3. Value-returning functions always require a return statement to return a value. True/False?
+Answer: True
+
+
 ### Writing Basic Functions
 
 This C++ program checks if a given integer is even or odd. It prompts the user to enter a number, then determines its parity using a basic
