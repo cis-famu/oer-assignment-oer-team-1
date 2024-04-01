@@ -42,25 +42,25 @@ Data type of each parameter
 Data type of the value computed by the function
 Another thing associated with functions is to add the code required to accomplish the task or it will not get done! Some properties include heading, function header, body; these eventually form the definition. (Please refer to key terms to further understand: parameters, function headers, body and definition) 
 
-Void and Value-returning functions
+### Void and Value-returning functions
 
 With value-returning functions they return only one value and they are used in an assignment statement, as a parameter in a function call, or in an output statement. The return statement will be based on the function that takes a parameter of a certain value, but it only gives one answer. Whereas in void functions they do not contain data types. However, in a void function you can use the return statement without any value; it is typically used to exit the function early instead. 
 
-Return statements
+### Return statements
 
 The return statement allows us to pass data from the function back to the caller, enabling functions to perform computations and provide results that can be used in other parts of the program.
 
 ![image](https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156258365/10c4eaf8-cb07-42b0-b4c0-9b4e570d1269)
 
 
-Function Prototype
+### Function Prototype
 
 Function prototypes give the program the name of the function, the number and data types of the parameters, and the data type of the returned value. 
 
 *The function heading, terminated by a semicolon, ;, without the body of the function.
 
 
-Review Questions
+### Review Questions
 
 
 
