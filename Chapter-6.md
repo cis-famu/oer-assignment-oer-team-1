@@ -184,7 +184,38 @@ T
 
 ### Use C-strings to input data into—and output data from—a C-string
 
+C-strings are strings where each character (type ‘char’) is stored in an array. The size of the array is determined when the array is initialized, it is the size of the string plus 1 extra for the null identifier (‘\0’) at the end to indicate the c-string has ended.	To initialize a cstring use the following as an example: 
 
+    char example[] = "Bikes"; //initializes the c-string
+
+This code creates a c-string named example and enters characters in bikes one into each slot of the array, it simultaneously sets the size of the array and adds a null identifier to the end of the c-string. Below you will find annotated code explaining how to input or output data to/from a cstring:
+
+    #include <iostream>
+    #include <string>
+
+    using namespace std;
+
+    int main(){
+
+      char example[] = "Bikes"; //initializes the c-string
+
+    for (int i = 0; example[i] != '\0'; ++i){
+      cout << example[i]; // outputs the c-string
+     }
+    cout << endl;
+
+    for (int i = 0; example[i] != '\0'; ++i){ // turns each vowel in the c-string into a dash
+      if (example[i] == 'a' || example[i] == 'e' ||example[i] == 'i' || example[i] == 'o' ||   example[i] == 'u')
+        example[i] = '-';
+    }
+  
+
+     for (int i = 0; example[i] != '\0'; ++i){ //outputs the updated c-string
+      cout << example[i]; 
+    }
+    cout << endl;
+
+    }
 
 
 ### Define parallel, two-dimensional, and multidimensional arrays
