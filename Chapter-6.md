@@ -143,7 +143,19 @@ Answer: D
 
 ### Pass an array as a parameter to a function
 
+Arrays are passed by C++ references, the function receives a reference to the original array. It is different from just copying. The sizing of a one dimensional array that is being declared as a formal parameter is usually omitted. From the example below you see that the size of both arrays are unspecified. At times the number of elements in an array could be less than the size of the array. The function initialize takes an integer array if any size as its first parameter and the size of the actual array is passed as the second parameter when the function is called 
 
+
+<img width="801" alt="Screen Shot 2024-04-14 at 4 41 20 PM" src="https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156829293/3868767b-cf65-4a5a-b47d-5fa7726bd96d">
+
+
+
+The sizing of a one dimensional array declared as a formal parameter is ususally ommited? T/F
+
+
+
+Answer
+T
 
 ### Demonstrate how to search and sort an array
 
