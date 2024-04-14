@@ -118,6 +118,29 @@ The restrictions on array processing can differ. To start, arrays cannot be dire
 
 
 
+
+
+Which statement  best describes the restrictions on array processing ?
+
+A) Arrays can be directly manipulated and assigned as a whole unit.
+
+
+B) Individual elements of arrays cannot be accessed or modified separately.
+
+
+C) Operations on arrays must always be performed collectively, without considering individual elements.
+
+
+D) Array processing requires accessing and modifying elements individually, as aggregate operations on arrays are not allowed.
+
+
+
+
+
+Answer: D
+
+
+
 ### Pass an array as a parameter to a function
 
 
