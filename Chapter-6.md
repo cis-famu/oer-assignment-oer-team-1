@@ -241,3 +241,36 @@ Parallel arrays are 2 separate arrays where information correlates to one anothe
 
     return 0;
     }
+
+Two-dimensional arrays have information in rows and columns like a coordinate plane with an x and y axis. They are initialized, and information is input/output from them very similarly, the main difference is that when you want to reference them the row and column are necessary.
+
+    #include <iostream>
+    #include <string>
+
+    using namespace std;
+
+    int main(){
+
+    int example[3][3] = {
+      {2,4,8},
+      {16,32,64},
+      {128,256,512}
+      };
+    cout << "example:" << endl;
+    for (int i = 0; i < 3 ; ++i) { //rows
+      for (int j = 0; j < 3; ++j) { //columns
+      cout << example[i][j] << " ";
+      }
+      cout << endl; 
+    }
+    return 0;
+
+    }
+
+This code will output
+
+    example:
+    2 4 8
+    16 32 64
+    128 256 512
+
