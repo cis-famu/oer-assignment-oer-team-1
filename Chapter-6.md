@@ -84,6 +84,33 @@ An example of data into arrays will be provided below:
 
 ![image](https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156258365/e9dc08c1-2afe-4fa4-9a83-67a18d61b3ca)
 
+True or False: The code provided calculates the average of five test scores entered by the user and displays test scores that are less than the calculated average.
+
+Answer: True
+
+
+In the provided code, the array named ________ stores the five test scores entered by the user.
+
+Answer: test
+
+What is the purpose of the loop with the condition index < 5 in the given code?
+
+A) To calculate the sum of the test scores
+
+B) To calculate the average of the test scores
+
+C) To iterate through each element of the test scores array
+
+D) To check if any test score is greater than the average
+
+Correct Answer: C) To iterate through each element of the test scores array
+
+
+
+
+
+
+
 
 Distinguish the restrictions on array processing
 
