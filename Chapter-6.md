@@ -9,13 +9,12 @@ True or False: Arrays in C++ allow a program to specify how many variables must 
 
 Answer: True
 
-
-Fill in the blank: Arrays are a collection of a fixed number of components all of the same ________ and in the same memory space.
+Arrays are a collection of a fixed number of components all of the same ________ and in the same memory space.
 
 Answer: Data type
 
 
-Multiple Choice: What is the purpose of arrays in C++?
+What is the purpose of arrays in C++?
 
 A) To provide a way to store and access multiple values of different data types
 
@@ -50,6 +49,34 @@ arrayName[indexExp]
 indexExp, called the index, is any expression whose value is a nonnegative integer.
 
 ![image](https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156258365/5cc8e8e4-bf05-4bbf-887e-9d59e02360b0)
+
+True or False: In the general form for declaring a one-dimensional array in C++, intExp specifies the number of components in the array, and it can be any expression, regardless of its value.
+
+Answer: False
+
+
+The general form (syntax) used for accessing an array component in C++ is arrayName[________].
+
+Answer: indexExp
+
+
+What does indexExp represent in the context of accessing an array component in C++?
+
+A) The number of components in the array
+
+B) The data type of the array elements
+
+C) Any expression whose value is a nonnegative integer
+
+D) The name of the array
+
+Correct Answer: C) Any expression whose value is a nonnegative integer
+
+
+
+
+
+
 
 ### Demonstrate manipulating data into arrays
 
