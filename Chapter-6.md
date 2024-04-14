@@ -160,6 +160,19 @@ T
 ### Demonstrate how to search and sort an array
 
 
+<img width="550" alt="Screen Shot 2024-04-14 at 4 46 07 PM" src="https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156829293/e19408e3-7d2a-48ac-a459-f163316a958c">
+
+
+
+
+
+
+
+
+
+
+<img width="585" alt="Screen Shot 2024-04-14 at 4 47 06 PM" src="https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156829293/e4657afd-c0a6-43ab-bd4d-7cb4baceaae7">
+
 
 ### Use auto declarations
 
