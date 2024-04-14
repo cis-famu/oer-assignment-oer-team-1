@@ -114,6 +114,8 @@ Correct Answer: C) To iterate through each element of the test scores array
 
 ### Distinguish the restrictions on array processing
 
+The restrictions on array processing can differ. To start, arrays cannot be directly manipulated or assigned as a whole unit. The only way it could work is if the individual elements are accessed and modified component wise. They would have to be copied individually. When reading data into an array everything must be performed element by element using loops. The restrictions come into play when you try to perform everything together and not individually. 
+
 
 
 ### Pass an array as a parameter to a function
