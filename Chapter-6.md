@@ -112,29 +112,29 @@ Correct Answer: C) To iterate through each element of the test scores array
 
 
 
-Distinguish the restrictions on array processing
+### Distinguish the restrictions on array processing
 
 
 
-Pass an array as a parameter to a function
+### Pass an array as a parameter to a function
 
 
 
-Demonstrate how to search and sort an array
+### Demonstrate how to search and sort an array
 
 
 
-Use auto declarations
+### Use auto declarations
 
 
 
-Evaluate range-based for loops
+### Evaluate range-based for loops
 
 
 
-Use C-strings to input data into—and output data from—a C-string
+### Use C-strings to input data into—and output data from—a C-string
 
 
 
 
-Define parallel, two-dimensional, and multidimensional arrays
+### Define parallel, two-dimensional, and multidimensional arrays
