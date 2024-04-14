@@ -219,3 +219,25 @@ This code creates a c-string named example and enters characters in bikes one in
 
 
 ### Define parallel, two-dimensional, and multidimensional arrays
+Parallel arrays are 2 separate arrays where information correlates to one another. This correlation is defined by the programer and can be used to store separate kinds of information in separate places while also making possible to reference them knowing the information lines up an example of a parallel array can be found below:
+
+    #include <iostream>
+    #include <string>
+
+    using namespace std;
+
+    int main(){
+
+    string students[] = {"John", "Sylvie", "Rhonda"}; //initalizes students array
+
+    int grades[] = {30, 97, 77};// initalizes grades array
+
+    int size = sizeof(students)/sizeof(students[0]); // finds the size of the students array
+
+    for (int i = 0; i < size; ++i){ //outputs each student and grade while using the same counter
+      cout << students[i] << " has grade: " << grades[i] << endl;
+
+    }
+
+    return 0;
+    }
