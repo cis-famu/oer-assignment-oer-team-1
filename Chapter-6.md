@@ -5,6 +5,35 @@ Arrays allow a program to specify how many variables must be declared, their dat
 
 ![image](https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156258365/3202173d-749d-490e-a68e-36517d2265f3)
 
+True or False: Arrays in C++ allow a program to specify how many variables must be declared, their data type, and other values with a much simpler statement.
+
+Answer: True
+
+
+Fill in the blank: Arrays are a collection of a fixed number of components all of the same ________ and in the same memory space.
+
+Answer: Data type
+
+
+Multiple Choice: What is the purpose of arrays in C++?
+
+A) To provide a way to store and access multiple values of different data types
+
+B) To simplify the declaration of variables in a program
+
+C) To facilitate storage and access of multiple values of the same data type under a single name
+
+D) To dynamically resize collections of elements during program execution
+
+
+Correct Answer: C) To facilitate storage and access of multiple values of the same data type under a single name
+
+
+
+
+
+
+
 
 ### Declare and initialize arrays
 
