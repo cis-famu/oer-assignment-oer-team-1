@@ -22,8 +22,11 @@ indexExp, called the index, is any expression whose value is a nonnegative integ
 
 ![image](https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156258365/5cc8e8e4-bf05-4bbf-887e-9d59e02360b0)
 
-Demonstrate manipulating data into arrays
+### Demonstrate manipulating data into arrays
 
+An example of data into arrays will be provided below:
+
+![image](https://github.com/cis-famu/oer-assignment-oer-team-1/assets/156258365/e9dc08c1-2afe-4fa4-9a83-67a18d61b3ca)
 
 
 Distinguish the restrictions on array processing
