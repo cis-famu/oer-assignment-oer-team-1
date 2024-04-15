@@ -267,10 +267,39 @@ Two-dimensional arrays have information in rows and columns like a coordinate pl
 
     }
 
-This code will output
+This code will output:
 
     example:
     2 4 8
     16 32 64
     128 256 512
+
+3-D and higher arrays can be thought of as adding a layer to the previous. Its as if you have the layer you saw above on top of another layer. As seen below:
+
+    #include <iostream>
+    #include <string>
+
+    using namespace std;
+
+    int main(){
+
+    int example[2][3][3] = {
+      {{2,4,8}, {16,32,64}, {128,256,512}}, //the double {{}} indicate the layer
+      {{1,2,3}, {4,5,6}, {7,8,9}}
+      };
+    cout << "example:" << endl;    
+    for (int i = 0; i < 2 ; ++i) { //layers
+    for (int j = 0; j < 3; ++j) { //rows
+    for (int n = 0; n < 3; ++n) { //columns
+      cout << example[i][j][n] << " ";
+      }
+      cout << endl << endl; 
+    }
+
+    cout << "new layer: " << endl;
+
+    }
+    return 0;
+    }
+
 
