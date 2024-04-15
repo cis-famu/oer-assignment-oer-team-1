@@ -301,5 +301,19 @@ This code will output:
     }
     return 0;
     }
+This program should output
 
+    example:
+    2 4 8 
+
+    16 32 64 
+
+    128 256 512 
+
+    new layer: 
+    1 2 3 
+    
+    4 5 6 
+
+    7 8 9 
 
